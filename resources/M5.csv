@@ -1,0 +1,9 @@
+Name,Value,Units,Comments
+M5_Extension,0.4,mm,Extend inner diameter
+M5_ScrewDiameter,5 + M5_Extension,mm,
+M5_Nut_Diameter_Inner,7.9 + M5_Extension,mm,
+M5_Nut_Diameter_Outer,9 + M5_Extension,mm,
+M5_Nut_Heigth,3.2,mm,
+M5_Head_Diameter_Inner,9.3 + M5_Extension,mm,
+M5_Head_Diameter_Outer,9.3 + M5_Extension,mm,
+M5_Head_Heigth,3.4,mm,

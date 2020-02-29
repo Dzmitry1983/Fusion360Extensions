@@ -1,0 +1,9 @@
+Name,Value,Units,Comments
+M3_Extension,0.2,mm,Extend inner diameter
+M3_ScrewDiameter,3 + M3_Extension,mm,
+M3_Nut_Diameter_Inner,5.5 + M3_Extension,mm,
+M3_Nut_Diameter_Outer,6.1 + M3_Extension,mm,
+M3_Nut_Heigth,2.5,mm,
+M3_Head_Diameter_Inner,5.6 + M3_Extension,mm,
+M3_Head_Diameter_Outer,6 + M3_Extension,mm,
+M3_Head_Heigth,1.9,mm,

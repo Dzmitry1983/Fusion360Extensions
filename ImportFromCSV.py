@@ -17,7 +17,9 @@ class CSVHelper:
         self.resourcesPath = os.path.join(self.currentFolder, 'resources/')
         print(self.resourcesPath)
         self.fileNameByKey = {
-            "M3": "M3.csv"
+            "M3": "M3.csv",
+            "M4": "M4.csv",
+            "M5": "M5.csv"
         }
 
     def __checkResourcesFolder(self, path):

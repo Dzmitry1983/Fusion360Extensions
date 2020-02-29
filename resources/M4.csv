@@ -1,0 +1,9 @@
+Name,Value,Units,Comments
+M4_Extension,0.2,mm,Extend inner diameter
+M4_ScrewDiameter,4 + M4_Extension,mm,
+M4_Nut_Diameter_Inner,6.8 + M4_Extension,mm,
+M4_Nut_Diameter_Outer,7.4 + M4_Extension,mm,
+M4_Nut_Heigth,3.1,mm,
+M4_Head_Diameter_Inner,7.4 + M4_Extension,mm,
+M4_Head_Diameter_Outer,4 + M4_Extension,mm,
+M4_Head_Heigth,2.3,mm,

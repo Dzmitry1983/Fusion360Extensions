@@ -15,11 +15,15 @@ class CSVHelper:
     def __init__(self):
         self.currentFolder = os.path.dirname(__file__)
         self.resourcesPath = os.path.join(self.currentFolder, 'resources/')
-        print(self.resourcesPath)
         self.fileNameByKey = {
             "M3": "M3.csv",
             "M4": "M4.csv",
-            "M5": "M5.csv"
+            "M5": "M5.csv",
+            "B608": "bearings/608.csv",
+            "B625": "bearings/625.csv",
+            "B626": "bearings/626.csv",
+            "B638": "bearings/638.csv",
+            "BLinear8": "bearings/linear8.csv"
         }
 
     def __checkResourcesFolder(self, path):
@@ -40,8 +44,14 @@ class CSVHelper:
             sys.exit("Error: file doesn't exis or it's not a file \n" + path)
             return False
 
+    def importAll(self):
+        for key in self.fileNameByKey:
+            self.importFromRecousrces(key)
+
     def importFromRecousrces(self, key):
         fileName = self.fileNameByKey[key]
+        if fileName == None:
+            fileName = key + ".csv"
         filePath = os.path.join(self.resourcesPath, fileName)
 
         if self.__checkResourcesFolder(self.resourcesPath) == False:
@@ -66,6 +76,7 @@ class CSVHelper:
             print("\t current:\t" + current)
             sys.exit("Exit")
             return False
+        
         print("Start to update Fusion360 user parameters")
         fusionParameters = Fusion360Parameters.UserParameters()
         for row in csv_Dictionary:
@@ -75,5 +86,7 @@ class CSVHelper:
             units = csvRow["Units"]
             comments = csvRow["Comments"]
             fusionParameters.updateFusionUserParameters(name, value, units, comments)
+        print(str(csv_Dictionary.line_num) + " parameters where updated")
     
 # CSVHelper().importFromRecousrces("M3")
+CSVHelper().importAll()

@@ -1,0 +1,7 @@
+Name,Value,Units,Comments
+Bearing_linear8_Extension,0.2,mm,Extend inner diameter
+Bearing_linear8_External_Diameter,15 + Bearing_linear8_Extension,mm,
+Bearing_linear8_Inner_Diameter,8 + Bearing_linear8_Extension,mm,
+Bearing_linear8_External_Ring_Diameter,14.2 + Bearing_linear8_Extension,mm,
+Bearing_linear8_External_Ring_Offset,4,mm,
+Bearing_linear8_Thickness,24,mm,

@@ -1,0 +1,6 @@
+Name,Value,Units,Comments
+Bearing_626_Extension,0.2,mm,Extend inner diameter
+Bearing_626_External_Diameter,19 + Bearing_626_Extension,mm,
+Bearing_626_Inner_Diameter,6 + Bearing_626_Extension,mm,
+Bearing_626_Inner_Ring_Diameter,9,mm,
+Bearing_626_Thickness,6,mm,

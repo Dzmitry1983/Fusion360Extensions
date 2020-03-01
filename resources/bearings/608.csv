@@ -1,0 +1,6 @@
+Name,Value,Units,Comments
+Bearing_608_Extension,0.2,mm,Extend inner diameter
+Bearing_608_External_Diameter,22 + Bearing_608_Extension,mm,
+Bearing_608_Inner_Diameter,8 + Bearing_608_Extension,mm,
+Bearing_608_Inner_Ring_Diameter,12,mm,
+Bearing_608_Thickness,7,mm,

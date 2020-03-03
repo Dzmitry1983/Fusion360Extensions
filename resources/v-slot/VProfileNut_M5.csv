@@ -1,0 +1,9 @@
+Name,Value,Units,Comments
+VProfileNut_M5_Extension,0.4,mm,Extend inner diameter
+VProfileNut_M5_Nut_Heigth,5.1 + VProfileNut_M5_Extension,mm,
+VProfileNut_M5_Nut_Width,10.4 + VProfileNut_M5_Extension,mm,
+VProfileNut_M5_Nut_Lenght,11.2 + VProfileNut_M5_Extension,mm,
+
+VProfileNut_M5_Rotatable_Nut_Heigth,4.4 + VProfileNut_M5_Extension,mm,
+VProfileNut_M5_Rotatable_Nut_Width,6 + VProfileNut_M5_Extension,mm,
+VProfileNut_M5_Rotatable_Nut_Lenght,10 + VProfileNut_M5_Extension,mm,

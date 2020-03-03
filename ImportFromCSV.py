@@ -16,14 +16,16 @@ class CSVHelper:
         self.currentFolder = os.path.dirname(__file__)
         self.resourcesPath = os.path.join(self.currentFolder, 'resources/')
         self.fileNameByKey = {
-            "M3": "M3.csv",
-            "M4": "M4.csv",
-            "M5": "M5.csv",
+            "M3": "screws/M3.csv",
+            "M4": "screws/M4.csv",
+            "M5": "screws/M5.csv",
             "B608": "bearings/608.csv",
             "B625": "bearings/625.csv",
             "B626": "bearings/626.csv",
             "B638": "bearings/638.csv",
-            "BLinear8": "bearings/linear8.csv"
+            "BLinear8": "bearings/linear8.csv",
+            "VSlot_2020": "v-slot/VSlot_2020.csv",
+            "VProfileNut_M5": "v-slot/VProfileNut_M5.csv",
         }
 
     def __checkResourcesFolder(self, path):
@@ -89,4 +91,8 @@ class CSVHelper:
         print(str(csv_Dictionary.line_num) + " parameters where updated")
     
 # CSVHelper().importFromRecousrces("M3")
-CSVHelper().importAll()
+try:
+    import adsk.core
+except ModuleNotFoundError:
+    CSVHelper().importAll()
+    pass

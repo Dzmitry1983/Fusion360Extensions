@@ -1,0 +1,14 @@
+Name,Value,Units,Comments
+VSlot_2020_Reduce,0.2,mm,Reduce inner sizes
+VSlot_2020_Extension,0.2,mm,Extend inner sizes
+VSlot_2020_thickness,20,mm,
+
+VSlot_2020_Mushroom_Height,6.1 - VSlot_2020_Reduce,mm,
+VSlot_2020_Mushroom_Leg_Bottom_Width,9.16 - VSlot_2020_Reduce,mm,
+VSlot_2020_Mushroom_Leg_Top_Width,6.25 - VSlot_2020_Reduce,mm,
+VSlot_2020_Mushroom_Leg_Height,1.8 + VSlot_2020_Extension,mm,
+VSlot_2020_Mushroom_Leg_Angle,45,grad,
+
+VSlot_2020_Mushroom_Head_Bottom_Width,11 - VSlot_2020_Reduce,mm,
+VSlot_2020_Mushroom_Head_Top_Width,6.25 - VSlot_2020_Reduce,mm,
+VSlot_2020_Mushroom_Head_Height,VSlot_2020_Mushroom_Height - VSlot_2020_Mushroom_Leg_Height - VSlot_2020_Reduce,mm,

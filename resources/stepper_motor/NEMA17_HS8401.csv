@@ -1,0 +1,10 @@
+Name,Value,Units,Comments
+NEMA17_HS8401_Extension,0.2,mm,Extend inner diameter
+NEMA17_HS8401_Body_Width,42.3 + NEMA17_HS8401_Extension,mm,
+NEMA17_HS8401_Body_Height,42.3 + NEMA17_HS8401_Extension,mm,
+NEMA17_HS8401_Body_Lenght,48 + NEMA17_HS8401_Extension,mm,
+NEMA17_HS8401_Body_Center_Circle_Diameter,22 + NEMA17_HS8401_Extension,mm,
+NEMA17_HS8401_Body_Center_Circle_Height,2 + NEMA17_HS8401_Extension,mm,
+NEMA17_HS8401_Body_Screws_Offset,31,mm,
+NEMA17_HS8401_Shaft_Diameter,5 + NEMA17_HS8401_Extension, mm,
+NEMA17_HS8401_Shaft_Lenght,21.5, mm,

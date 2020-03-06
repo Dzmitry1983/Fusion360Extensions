@@ -26,6 +26,9 @@ class CSVHelper:
             "BLinear8": "bearings/linear8.csv",
             "VSlot_2020": "v-slot/VSlot_2020.csv",
             "VProfileNut_M5": "v-slot/VProfileNut_M5.csv",
+            "NEMA17_HS2408": "v-stepper_motor/NEMA17_HS2408.csv",
+            "NEMA17_HS4401": "v-stepper_motor/NEMA17_HS4401.csv",
+            "NEMA17_HS8401": "v-stepper_motor/NEMA17_HS8401.csv",
         }
 
     def __checkResourcesFolder(self, path):

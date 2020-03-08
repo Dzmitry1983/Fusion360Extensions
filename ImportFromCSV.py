@@ -49,6 +49,14 @@ class CSVHelper:
             sys.exit("Error: file doesn't exis or it's not a file \n" + path)
             return False
 
+    def printResourcesKeys(self):
+        adjustKey = 20
+        adjustPath = 30
+        print ("Key".ljust(adjustKey), "Path".ljust(adjustPath))
+        for key in self.fileNameByKey:
+            value = self.fileNameByKey[key]
+            print (key.ljust(adjustKey), ("./" + value).ljust(adjustPath))
+
     def importAll(self):
         for key in self.fileNameByKey:
             self.importFromRecousrces(key)
@@ -97,5 +105,7 @@ class CSVHelper:
 try:
     import adsk.core
 except ModuleNotFoundError:
-    CSVHelper().importAll()
+    csvHelper = CSVHelper()
+    csvHelper.importAll()
+    csvHelper.printResourcesKeys()
     pass
